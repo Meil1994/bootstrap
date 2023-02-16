@@ -1,0 +1,155 @@
+/*Header*/
+.nav-row{
+    background-color: rgb(226, 212, 128);
+}
+.logo{
+    text-align: center;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav-buttons{
+    padding: 0;
+}
+.nav-buttons ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+.nav-buttons li{
+    align-items: center;
+    margin-top: 45px;
+}
+.nav-buttons a{
+    text-decoration: none;
+    color: black;
+}
+.nav-buttons a:hover{
+    color: rgb(5, 117, 117);
+}
+.nav-contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-contact button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 85, 39);
+    border-radius: 10px;
+}
+.nav-contact button:hover{
+    background-color: rgb(194, 123, 76);
+    box-shadow: 5px 5px black;
+    transform: translateY(2px);
+}
+.nav-contact button:active{
+    background-color: rgb(194, 123, 76);
+    box-shadow: 2px 2px black;
+    transform: translateY(5px);
+}
+/*Intro*/
+.intro1{
+    padding: 5%;
+}
+.intro1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.intro1 p{
+    font-size: 20px;
+}
+.intro1 button{
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 85, 39);
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.intro1 button:hover{
+    background-color: rgb(194, 123, 76);
+    box-shadow: 5px 5px black;
+    transform: translateY(2px);
+}
+.intro1 button:active{
+    background-color: rgb(194, 123, 76);
+    box-shadow: 2px 2px black;
+    transform: translateY(5px);
+}
+.intro2{
+    padding: 5%;
+    background-image: linear-gradient(90deg,rgba(223, 212, 177, 0.973),rgba(211, 206, 189, 0.274)),url('mom.avif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.intro2 h2{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.intro2 p{
+    font-size: 20px;
+}
+.intro2 button{
+    float: right;
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 85, 39);
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.intro2 button:hover{
+    background-color: rgb(194, 123, 76);
+    box-shadow: 5px 5px black;
+    transform: translateY(2px);
+}
+.intro2 button:active{
+    background-color: rgb(194, 123, 76);
+    box-shadow: 2px 2px black;
+    transform: translateY(5px);
+}
+/*1st Page Lower Section*/
+.money{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(194, 123, 76);
+}
+.tansaction{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: -10px -10px rgb(194, 123, 76);
+}
+/*Client Testimony*/
+.testimony{
+    margin-top: 50px;
+}
+.testimony h2{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+.testimony-row{
+    padding: 5%;
+    padding-top: 100px;
+}
+.box{
+    border: 2px solid black;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: -10px 10px 10px rgb(201, 195, 189);
+}
